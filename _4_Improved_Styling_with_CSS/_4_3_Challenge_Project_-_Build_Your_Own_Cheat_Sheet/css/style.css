@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+/* Selecting all elements with the class `code` and all `td` elements that are
+the first child of their parent. */
+.code {
+    font-weight: bold;
+    color: blue;
+    font-family: 'Fira Code', monospace;
+    background-color: beige;
+}
