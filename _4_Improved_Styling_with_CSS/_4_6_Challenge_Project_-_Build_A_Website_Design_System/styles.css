@@ -4,6 +4,21 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+h1 {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+p {
+    font-weight: normal;
+    font-size: medium;
+}
+
 a {
     color: #fd9362;
 }
