@@ -61,6 +61,19 @@ section {
     content: "The quick brown fox jumps over the lazy dog.";
 }
 
+.font-container {
+    display: flex;
+}
+
+.font-panel {
+    display: inline-block;
+    width: 45%;
+}
+
+.font-panel h3 {
+    text-decoration: underline;
+}
+
 .source-sans-pro {
     font-family: 'Source Sans Pro', sans-serif;
 }
