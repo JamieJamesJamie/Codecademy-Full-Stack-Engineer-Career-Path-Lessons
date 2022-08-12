@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 a {
     color: #fd9362;
 }
@@ -43,4 +49,20 @@ a:active {
 .primary-dark {
     background-color: #004c8b;
     color: white;
+}
+
+.source-sans-pro {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.fira-code {
+    font-family: 'Fira Code', monospace;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
 }
