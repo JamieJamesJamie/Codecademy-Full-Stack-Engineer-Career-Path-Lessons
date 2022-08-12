@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+p {
+    font-weight: normal;
+    font-size: medium;
+}
+
+a {
+    color: #fd9362;
+}
+
+a:visited {
+    color: #f965b3;
+}
+
+a:hover {
+    color: #02bda4;
+}
+
+a:active {
+    color: #9d6be0;
+}
+
+section {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.colour-container {
+    display: flex;
+}
+
+.colour-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.colour-panel div+div {
+    border-top: 2px dotted;
+}
+
+.primary {
+    background-color: #0277bd;
+    color: white;
+}
+
+.primary-light {
+    background-color: #58a5ef;
+    color: black;
+}
+
+.primary-dark {
+    background-color: #004c8b;
+    color: white;
+}
+
+.font-panel p::after {
+    content: "The quick brown fox jumps over the lazy dog.";
+}
+
+.font-container {
+    display: flex;
+}
+
+.font-panel {
+    display: inline-block;
+    width: 45%;
+}
+
+.font-panel h3 {
+    text-decoration: underline;
+}
+
+.source-sans-pro {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.fira-code {
+    font-family: 'Fira Code', monospace;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
