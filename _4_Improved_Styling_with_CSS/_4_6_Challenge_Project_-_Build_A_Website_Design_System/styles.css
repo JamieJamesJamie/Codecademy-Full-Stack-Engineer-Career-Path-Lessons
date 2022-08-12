@@ -57,6 +57,10 @@ section {
     color: white;
 }
 
+.font-panel p::after {
+    content: "The quick brown fox jumps over the lazy dog.";
+}
+
 .source-sans-pro {
     font-family: 'Source Sans Pro', sans-serif;
 }
